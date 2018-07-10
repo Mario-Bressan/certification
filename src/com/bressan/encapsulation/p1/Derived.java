@@ -1,4 +1,4 @@
-package com.bressan.encapsulation.protectedexample.p1;
+package com.bressan.encapsulation.p1;
 
  class Derived extends Protection {
 

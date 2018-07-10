@@ -1,6 +1,6 @@
-package com.bressan.encapsulation.protectedexample.p2;
+package com.bressan.encapsulation.p2;
 
-import com.bressan.encapsulation.protectedexample.p1.Protection;
+import com.bressan.encapsulation.p1.Protection;
 
 class OtherPackage {
 

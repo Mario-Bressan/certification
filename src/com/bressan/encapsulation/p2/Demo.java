@@ -1,4 +1,4 @@
-package com.bressan.encapsulation.protectedexample.p2;
+package com.bressan.encapsulation.p2;
 
 public class Demo {
     public static void main(String[] args) {
