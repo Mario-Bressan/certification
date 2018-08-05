@@ -9,6 +9,7 @@ abstract class Employee {
 }
 
 class Programmer extends Employee {
+    @Override
     public void startProjectWork() {
         defineClasses();
         unitTestCode();
@@ -22,6 +23,7 @@ class Programmer extends Employee {
 }
 
 class Manager extends Employee {
+    @Override
     public void startProjectWork() {
         meetingWithCustomer();
         defineProjectSchedule();
