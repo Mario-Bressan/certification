@@ -1,4 +1,4 @@
-package com.bressan.selectedclasses.stringbuilder;
+package com.bressan.stringbuilder;
 
 //The append method accepts any data types.
 public class AppendStringBuilder {
