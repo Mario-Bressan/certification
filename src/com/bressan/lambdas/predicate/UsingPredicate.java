@@ -18,7 +18,8 @@ public class UsingPredicate {
 
         Consumer<User> printName = u -> System.out.println(u.getName());
 
-        users.forEach(showMessage.andThen(printName));
+        // passing Consumer as parameter
+        users.forEach(showMessage.andThen(printName)); //andThen(Consumer<? super T> after)
 
         List<User> users2 = new ArrayList<>();
 
@@ -27,7 +28,7 @@ public class UsingPredicate {
 
         Predicate<User> predicate = new Predicate<User>() {
             @Override
-            public boolean test(User user) {
+            public boolean test(User user) { // Evaluates this predicate on the given argument
                 return user.getPoints() > 160;
             }
         };
