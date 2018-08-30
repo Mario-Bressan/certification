@@ -3,6 +3,8 @@ package com.bressan.stringbuilder.imutable;
 public class Test {
     public static void main(String[] args) {
 
+        // All refer to the same StringBuilder object
+        // if a copy is not returned
         StringBuilder sb = new StringBuilder("initial");
         ImmutableSwan problem = new ImmutableSwan(sb);
         sb.append(" added");
