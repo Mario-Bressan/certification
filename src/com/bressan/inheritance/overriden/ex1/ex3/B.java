@@ -10,7 +10,7 @@ class A {
         System.out.println("A");
     }
 }
-public class B extends A {
+class B extends A {
     int i = 4;
 
     public static void main(String[] args) {
